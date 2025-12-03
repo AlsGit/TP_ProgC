@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <math>
+#include <math.h>
 
 int main() {
     //double pi = 3.1416;
@@ -8,3 +8,4 @@ int main() {
     printf("L'air du cercle = %f\n", M_PI*(r*r));
     printf("Le périmètre du cercle = %f\n", M_PI*(r+r));
 }
+
