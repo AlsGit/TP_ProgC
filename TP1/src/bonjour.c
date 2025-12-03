@@ -4,6 +4,3 @@
 int main() {
 printf("Bonjour le CNAM!");
 }
-
-
-
