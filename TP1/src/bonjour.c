@@ -2,5 +2,5 @@
 #include <string.h>
 
 int main() {
-	printf("Bonjour le Monde!");
+	printf("Bonjour le Monde!\n");
 }
