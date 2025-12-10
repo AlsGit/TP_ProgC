@@ -7,12 +7,12 @@
 
 int main() {
 	double rayon = 6;
-    	double perimetre = M_PI * rayon * 2; // utilisation de M_PI dans un calcul 
+	double perimetre = M_PI * rayon * 2; // utilisation de M_PI dans un calcul 
 	double aire = M_PI * pow(rayon,2); // pow(base,puissance) vient de math.h 
 
 	printf("Rayon du cercle : %.2f\n", rayon);
 	printf("Aire du cercle = %.2f\n", aire);
-    	printf("Périmètre du cercle = %.2f\n", perimetre);
+	printf("Périmètre du cercle = %.2f\n", perimetre);
 	// %.2f affiche une variable de type float limité à 2 décimales
 }
 
