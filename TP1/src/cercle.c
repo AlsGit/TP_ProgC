@@ -7,12 +7,20 @@
 
 int main() {
 	double rayon = 6;
+<<<<<<< HEAD
 	double perimetre = M_PI * rayon * 2; // utilisation de M_PI dans un calcul 
+=======
+    double perimetre = M_PI * rayon * 2; // utilisation de M_PI dans un calcul 
+>>>>>>> refs/remotes/origin/master
 	double aire = M_PI * pow(rayon,2); // pow(base,puissance) vient de math.h 
 
 	printf("Rayon du cercle : %.2f\n", rayon);
 	printf("Aire du cercle = %.2f\n", aire);
+<<<<<<< HEAD
 	printf("Périmètre du cercle = %.2f\n", perimetre);
+=======
+    printf("Périmètre du cercle = %.2f\n", perimetre);
+>>>>>>> refs/remotes/origin/master
 	// %.2f affiche une variable de type float limité à 2 décimales
 }
 
@@ -34,3 +42,4 @@ int main() {
  * Exemple utilisation pour cet exercice : 
  * $ make cercle # noté l'absence de l'extension .c pour make
  */
+
