@@ -11,23 +11,18 @@ int main() {
 	 * J'ajoute les # seulement entre les lignes 3 et la valeur du compteur
 	 * Sinon j'ajoute une étoile au début et à la fin de la ligne
 	 */
-	int i = 0;
-	while (i<compteur) {
-		if (i>0) {
+	for (int i=0; i<compteur; i++) {
+		if (i > 0) {
 			printf("* ");
-		}
-		
-		int j = 0;
-		while (j<i-1) {
+		} // étoile solitaire à chaque début de ligne
+		for (int j=0; j<i-1; j++) { // remplit de # entre chaque * selon certaines conditions
 			if (i>1 && i<compteur-1) {
 				printf("# ");
-			} else {
+			} // # de la 3e à l'avant-dernière ligne
+			else {
 				printf("* ");
-			}
-			j++; // nécessaire pour arriver au terme de la boucle j==i-1
+			} // * aux lignes 0, 1 et la dernière ligne
 		}
-
-		printf("*\n");
-		i++; // nécessaire pour arriver au terme de la boucle i==compteur 
+		printf("*\n"); // étoile solitaire à chaque fin de ligne
 	}
 }
