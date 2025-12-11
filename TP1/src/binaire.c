@@ -3,7 +3,7 @@
 #include <time.h> // nécessaire pour time()
 
 int main() {
-	unsigned int decimal[5] = {0, 4096, 65536, 65535, 1024};
+	int decimal[5] = {0, 4096, 65536, 65535, 1024};
 	
 	for (int i=0; i<5; i++) { // affichage des 5 valeurs en binaire
 		int tobase = 2; // binaire = base 2
