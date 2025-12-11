@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h> // nécessaire pour srandom()
-#include <time.h> // nécessaire pour time()
 
 int main() {
 	int decimal[5] = {0, 4096, 65536, 65535, 1024};
